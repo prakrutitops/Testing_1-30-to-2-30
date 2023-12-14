@@ -1,0 +1,44 @@
+Activity
+Process
+
+
+Verification -> before coding
+Validation -> after coding
+
+Static Testing -> without executing code
+Dynamic Testing -> with executing code
+
+
+
+1.Testing Shows Presence of Defects:
+Functional Defect
+Non Functional Defect
+GUI Defect
+Security Defect
+
+2.Exhaustive testing is impossible:
+Every Combination of input are not possible to check
+
+3.Early Testing:
+Static Testing
+
+4.Defect Clustering:
+When Two or more itmes are there make sure one will effect another
+
+5.Pasticide Paradox:
+Regularly review and revised something
+
+6.Testing is context dependent:
+Testing is dependent on project
+
+7.Absence of Error Fallacy:
+If Error is solved or not present but your requirement are not fullfilled
+
+Types of Layers in Software Architecture
+Presentation Layer
+Application Layer
+Data Layer
+
+
+
+
