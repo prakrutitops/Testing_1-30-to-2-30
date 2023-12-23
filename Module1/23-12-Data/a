@@ -1,1 +1,34 @@
 
+Error -> Mistake in coding  
+Defect -> If Tester Find a mistake then it's called defect
+Bug -> if defect will be accepted by development team then it's called a bug
+Failure -> if Expected and actual result are not same then it's called failure
+
+ 
+Quality : Quality means a data where user can meet specified requirement
+
+Risk: There are two types of risk
+1)Product Risk
+2)Project Risk
+
+Who does testing?
+⚫ Software Tester
+⚫ Software Developer
+⚫ Project Lead/Manager
+⚫ End User
+
+
+developers also conduct testing which is called Unit Testing.
+
+QA => Quality Assurance
+QC => Quality Control
+Tester => Software Tester
+
+SDLC -> Software Development Lifecycle
+STLC -> Software Testing Lifecycle
+
+HLR
+TestScenario
+Testcase
+Defect Report
+
