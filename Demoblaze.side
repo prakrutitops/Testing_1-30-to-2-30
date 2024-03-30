@@ -1,0 +1,115 @@
+{
+  "id": "02173899-74db-4b47-81d6-b011df9f7843",
+  "version": "2.0",
+  "name": "Demoblaze",
+  "url": "https://www.demoblaze.com",
+  "tests": [{
+    "id": "c91bb874-05d7-4d11-92ff-8dcc096e260c",
+    "name": "Signup",
+    "commands": [{
+      "id": "e3b0db57-8060-4ef7-8555-012ea1410412",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "404e61aa-0c7f-4f23-89b0-51eaf166387a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c965cb86-0ce1-4e0c-8eb2-18c3b2181ec5",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin2",
+      "targets": [
+        ["id=signin2", "id"],
+        ["linkText=Sign up", "linkText"],
+        ["css=#signin2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[@id='signin2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ef27652-5d8c-414f-ace3-c1ff5bdbfc31",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09ea1bb4-519c-401a-878c-6e5d49ece9cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "pranav"
+    }, {
+      "id": "ce3a7af1-73e2-4e79-a19f-4425dbc1fa9c",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-password",
+      "targets": [
+        ["id=sign-password", "id"],
+        ["css=#sign-password", "css:finder"],
+        ["xpath=//input[@id='sign-password']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "e5126d05-98b5-43f7-b278-96a769ea3604",
+      "comment": "",
+      "command": "click",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9467e98a-d6d6-48ab-8aaa-5b0ddc202016",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "This user already exist.",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f1eb7279-1b44-4aa8-b8dd-28145c961e11",
+    "name": "login",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "7170890f-f9a2-445f-bc2f-1717e3f027da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c91bb874-05d7-4d11-92ff-8dcc096e260c"]
+  }],
+  "urls": ["https://www.demoblaze.com/"],
+  "plugins": []
+}
